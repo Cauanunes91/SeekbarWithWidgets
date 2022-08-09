@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Aula15SeekBar.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Aula15SeekBar.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2CE61F"
+        android:fontFamily="@font/mouse_memoirs"
+        android:textColor="@color/black"
+        android:text="Abrir"
+        app:icon="@drawable/ic_baseline_add_24"></Button>
+
+</RelativeLayout>
